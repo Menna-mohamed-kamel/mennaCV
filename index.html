@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+<style>
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.name{
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    background-color: rgb(164, 118, 248);
+    float: left;
+    overflow: hidden;
+}
+.name:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+img{
+    width:75%;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 11%;
+    border: 1px solid black;
+}
+img:hover{
+    border: 1px solid rgb(11, 109, 221);
+}
+.namo{
+    font-size: 25px;
+    padding-left:35px;
+    color: white;
+    margin-top: 5px;
+}
+.state{
+    font-size: 20px;
+    padding-left: 35px;
+    color: rgb(21, 21, 22);
+}
+h2{
+    font-size: 25px;
+    padding-left: 35px;
+    color: rgb(37, 37, 212);
+}
+dd{
+    margin-top: 8px;
+    padding-left: 38px;
+}
+dt{
+    font-size: 20px;
+    padding-left: 35px;
+    color:rgb(37, 37, 212); 
+    margin-top: 10px;
+}
+.info{
+    float: left;
+    background-color: rgb(216, 199, 245);
+    width: 73%;
+    margin-left: 25%;
+    padding: 1%;
+   }
+.info:after {
+  content: "";
+  display: table;
+  clear: both;
+   }
+.inner h1{
+    color:rgb(37, 37, 212); 
+}   
+.inner p{
+    font-size: 20px;
+}
+.inner li{
+    margin: 10px;
+    font-size: 20px;
+}
+   @media  screen and (max-width:500px) {
+       .name , .info{
+           width: 100%;
+           clear: both;
+           
+       }
+       
+   }
+</style>    
+</head> 
+<body>
+    <div class="name">
+        <img src="me.jpg" alt="myphoto">
+        <p class="namo">Menna Allah Mohamed Kamel</p>
+        <p class="state">Electerical Engineer </p>
+
+        <h2>Personal info:</h2>
+
+<dl>
+    <dt>State:</dt>
+    <dd>- Student.</dd> 
+  <dt>Age:</dt>
+  <dd>- 20 years.</dd>
+  <dt>Address:</dt>
+  <dd><address>- Egypt,Cairo.</address></dd>
+</dl>
+</div>
+
+<div class="info">
+    <div class="inner">
+     <h1>Education:</h1>
+     <p>-  Study at Electronics and communication department in Shoubra faculty of engineering-benha.</p>
+     <h1>Web skills:</h1>
+     <ul>
+         <li>HTML: 80%</li>
+         <li>CSS: 60%</li>
+     </ul>
+
+     <h1>Hoppies:</h1>
+     <ul>
+         <li>Drawing</li>
+         <li>Painting</li>
+         <li>Reading</li>
+     </ul>
+
+     <h1>Languages:</h1>
+     <ul>
+         <li>Arabic</li>
+         <li>English</li>
+    </ul>
+
+    <h1>Contact:</h1>
+    <dl>
+        <dt>Phone:</dt>
+        <dd>- 01019190567</dd> 
+      <dt>Email:</dt>
+      <dd>- menna196067@feng.bu.edu.eg</dd>
+      </dl>
+</div>
+
+</div>
+</body>   
+</html>
